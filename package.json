@@ -8,6 +8,7 @@
     "clean": "rimraf dist",
     "lite": "lite-server",
     "start": "npm run watch:all",
+    "scss": "node-sass -o css/ css/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
@@ -20,8 +21,10 @@
   "devDependencies": {
     "copyfiles": "^2.2.0",
     "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1",
     "onchange": "^7.0.0",
-    "parallelshell": "3.0.1"
+    "parallelshell": "3.0.1",
+    "sass": "^1.57.1"
   },
   "dependencies": {
     "bootstrap": "^4.6.2",
