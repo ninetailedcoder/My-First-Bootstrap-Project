@@ -1,5 +1,5 @@
 NuCamp: A better way to camp 
-
+----------------------------
 A camp reservation site built with HTML,CSS, Bootstrap, and JavaScript and deployed using Google Cloud platform to showcase my Software development skills.
 
 follow the link for the live Demo https://nucampsitebootstrap.web.app/
@@ -11,14 +11,23 @@ follow the link for the live Demo https://nucampsitebootstrap.web.app/
 
 
 Tech stach used
+---------------
 HTML
+
 CSS
+
 Bootstrap
+
 Javascript
+
 Google cloud platform
 
 To run on your own machine:
+---------------------------
 git clone https://github.com/ninetailedcoder/My-First-Bootstrap-Project.git
+
 cd My-First-Bootstrap-Project
+
 npm install
+
 npm start
